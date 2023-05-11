@@ -1,5 +1,5 @@
 # Distance-sorting-API
-This API accepts in the body of the request a JSON object that contains an array of addresses, and a 'location' property whose value will be used as origin to sort the addresses in the array by distance.
+This API accepts in the body of the POST request a JSON object that contains an array of addresses, and a 'location' property whose value will be used as origin to sort the addresses in the array by distance.
 
 The response to the request is an array that will contain the addresses in the array and their respective distances (meter) from the address of the 'location' property.
 
